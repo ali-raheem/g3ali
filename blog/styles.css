@@ -1,0 +1,36 @@
+body {
+  font-family: 'Fira Code', 'Courier New', monospace;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+}
+
+.post {
+  border: 1px solid #00aa00;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.post h2 {
+  margin-top: 0;
+  color: #00ff00;
+  text-decoration: underline;
+  text-decoration-color: #006600;
+}
+
+.post a {
+  color: #00ff00;
+  text-decoration: none;
+}
+
+.post a:hover {
+  background-color: #00ff00;
+  color: #000000;
+}
